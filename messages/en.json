@@ -1,0 +1,229 @@
+{
+  "Meta": {
+    "title": "RADER Group – Innovation & Technology for Sustainable Development",
+    "description": "Technological and financial solutions to accelerate the Sustainable Development Goals in Africa."
+  },
+  "Header": {
+    "brand": "Sustainable Development",
+    "beneficiaries": "Beneficiaries Area",
+    "menu": "Open menu",
+    "nav": [
+      { "label": "Home", "href": "#accueil" },
+      { "label": "The Group", "href": "#groupe" },
+      { "label": "Our Programmes", "href": "#programmes" },
+      { "label": "Our Solutions", "href": "#solutions" },
+      { "label": "Financing & Insurance", "href": "#financement" },
+      { "label": "Our Products & Services", "href": "#produits" },
+      { "label": "Partners", "href": "#partenaires" },
+      { "label": "Impact", "href": "#impact" },
+      { "label": "News", "href": "#actualites" },
+      { "label": "Contact", "href": "#contact" }
+    ]
+  },
+  "Hero": {
+    "eyebrow": "Solutions for a sustainable future",
+    "title": "RADER Group",
+    "tagline": "Innovation & Technology for Sustainable Development",
+    "text": "Technological and financial solutions to accelerate the Sustainable Development Goals in Africa.",
+    "ctaDiscover": "DISCOVER RADER →",
+    "ctaPartner": "BECOME A PARTNER"
+  },
+  "Stats": {
+    "items": [
+      { "value": 100, "label": "Projects completed", "image":"/images/stat-1.png"},
+      { "value": 50000, "label": "Beneficiaries","image":"/images/stat-2.png"},
+      { "value": 10, "label": "Countries of operation", "image":"/images/stat-3.png" },
+      { "value": 200000, "label": "Tonnes of CO₂ avoided", "image":"/images/stat-4.png" }
+    ]
+  },
+  "Trust": { "title": "They trust us" },
+  "About": {
+    "title": "ABOUT RADER",
+    "subtitle": "An ecosystem serving sustainable development",
+    "text": "The RADER Group brings together RADER SA and its subsidiary GLOBTOURNET, a pan-African group deploying innovative solutions in agriculture, agri-food, water, environment, energy, real estate and digital technology, for inclusive and sustainable growth...",
+    "cta": "LEARN MORE →",
+    "imageAlt": "Farmers and sustainable solutions",
+    "links": [
+      { "label": "Our History", "href": "#histoire" },
+      { "label": "Our Missions", "href": "#missions" },
+      { "label": "Our Vision", "href": "#vision" },
+      { "label": "RADER SA", "href": "#rader-sa" },
+      { "label": "GLOBTOURNET", "href": "#globtournet" }
+    ]
+  },
+    "Contact": {
+    "title": "Write to us",
+    "subtitle": "A question, a project, a partnership? We reply quickly.",
+    "name": "Full name",
+    "email": "Email address",
+    "phone": "Phone (optional)",
+    "subject": "Subject",
+    "message": "Your message",
+    "send": "SEND MESSAGE",
+    "sending": "Sending...",
+    "success": "Thank you! Your message has been sent. We will get back to you shortly.",
+    "error": "Something went wrong. Please try again or contact us on WhatsApp.",
+    "fieldError": "Please check the fields in red (the message must be at least 10 characters long)."
+  },
+  "Beneficiaries": {
+    "title": "Beneficiaries Area",
+    "subtitle": "Access our solutions according to your profile and discover your dedicated journey.",
+    "who": "Who are you?",
+    "cards": [
+      {
+        "question": "Are you a graduate who is unemployed or working in the informal sector? Do you want to become a distributor of RADER SA or GLOBTOURNET SA products and services in your municipality?",
+        "cta": "Contact us for an installation loan"
+      },
+      {
+        "question": "Are you a farmer, livestock breeder, producer cooperative or consumer? Do you want to commit to eco-responsible production or consumption?",
+        "cta": "Contact us for an eco-responsible production and consumption loan"
+      },
+      {
+        "question": "Are you a B2B buyer (supermarket, bayam-sellam association, butchers' association, agro-pastoral exporter, etc.) who wants to secure your supply chain and work towards carbon neutrality?",
+        "cta": "Contact us for our contract farming services"
+      },
+      {
+        "question": "Do you own a community or municipal forest?",
+        "cta": "Contact us for our reforestation (paid/avoided) and satellite monitoring services"
+      },
+      {
+        "question": "Are you a university? Do you want access to quality educational content to promote Education for Sustainable Development (ESD)?",
+        "cta": "Contact us for a multimedia room installation loan for distance learning and a WashEnergy-ESD loan"
+      }
+    ]
+  },
+  "Programs": {
+    "title": "Our Programmes",
+    "subtitle": "Structuring programmes for lasting impact",
+    "cards": [
+      {
+        "name": "AFRICA GREEN IMPACT (AGI)",
+        "text": "Accelerating the transition to a thriving, carbon-neutral economy in Africa.",
+        "cta": "DISCOVER AGI",
+        "href": "#agi"
+      },
+      {
+        "name": "Multimedia Relay for Development (REMUDEV)",
+        "text": "Accelerating digital inclusion for communities and promoting distance learning.",
+        "cta": "DISCOVER REMUDEV",
+        "href": "#remudev"
+      }
+    ]
+  },
+  "Solutions": {
+    "title": "Our Solutions",
+    "subtitle": "Integrated solutions, impact products and services to catalyse a thriving, carbon-neutral economy.",
+    "blockTitle": "TECHNOLOGY SOLUTIONS OF THE",
+    "agiProgram": "AGI PROGRAMME",
+    "remudevProgram": "REMUDEV PROGRAMME",
+    "seeProducts": "View products",
+    "agi": [
+      { "name": "RADER AFOLU", "text": "Digitised, climate-smart agriculture, livestock, fish farming and forestry", "href": "#afolu" },
+      { "name": "RADER FOOD & BEVERAGE", "text": "Promoting contract farming and agri-food processing", "href": "#food" },
+      { "name": "RADER CLEANTECH", "text": "Water, energy, environment.", "href": "#cleantech" },
+      { "name": "RADER SAMALA", "text": "Agricultural mechanisation, agri-food logistics and electric vehicles", "href": "#samala" },
+      { "name": "RADER IMMO", "text": "Commercial and social real estate solutions.", "href": "#immo" },
+      { "name": "RADER FOOD & BEVERAGE SUPERMARKETS", "text": "Showcases for organic and conventional local food products", "href": "#supermarkets" },
+      { "name": "RADER GreenCA", "text": "Monetisation of carbon credits generated by the AGI programme", "href": "#greenca" }
+    ],
+    "remudev": [
+      { "name": "AFRICA CAMPUS", "text": "Multi-institutional platform for creating and distributing e-learning content.", "href": "#africa-campus" },
+      { "name": "EDUCA TV", "text": "Platform for creating and streaming e-learning, e-conferencing and e-marketing audiovisual content.", "href": "#educa-tv" },
+      { "name": "GLOBTOURNET HOTSPOTS", "text": "Wireless internet access at home, at the office, at school and on the move.", "href": "#hotspots" },
+      { "name": "GLOBTOURNET SHOWROOMS", "text": "Smartphones, tablets, laptops, desktops, digital cameras and camcorders, and various multimedia accessories.", "href": "#showrooms" }
+    ]
+  },
+  "Financing": {
+    "title": "Financing & Insurance",
+    "text": "Financing and insurance solutions giving producers, consumers and distributors the opportunity to buy our impact products and services on credit, to make it easier to adopt environmentally responsible production and consumption.",
+    "cta": "DISCOVER OUR FINANCING SOLUTIONS",
+    "offers": [
+      { "title": "CREDIT", "text": "Financing solutions tailored to your projects." },
+      { "title": "INSURANCE", "text": "Coverage to secure your activities." },
+      { "title": "SUPPORT", "text": "Personalised follow-up at every step." }
+    ],
+    "stepsTitle": "The steps to acquire our products and services on credit.",
+    "steps": [
+      { "title": "Choose a solution", "text": "Browse our products and services." },
+      {
+        "title": "Create your account",
+        "text": "Become a customer or open an account with a partner bank or microfinance institution.",
+        "cta": "SEE THE LIST OF PARTNER BANKS AND MFIs",
+        "href": "#partenaires"
+      },
+      {
+        "title": "Subscribe to micro-insurance",
+        "text": "Index-based climate insurance, emergency medical expenses following an accident, etc.",
+        "cta": "SEE THE LIST OF PARTNER INSURANCE COMPANIES",
+        "href": "#partenaires"
+      },
+      { "title": "Benefit from the solution and support", "text": "Use your solution and follow your project." }
+    ]
+  },
+  "Approach": {
+    "title": "Our Approach",
+    "subtitle": "An integrated approach for concrete results",
+    "cta": "DISCOVER OUR INNOVATIONS",
+    "pillars": [
+      { "title": "TECHNOLOGY", "text": "Innovative solutions serving sustainable development" },
+      { "title": "CLIMATE", "text": "Actions for a more resilient future" },
+      { "title": "IMPACT", "text": "Lasting benefits for communities" }
+    ]
+  },
+  "Impact": {
+    "title": "Our Impact",
+    "subtitle": "Concrete results for more resilient territories",
+    "domainsTitle": "OUR AREAS OF IMPACT",
+    "domains": ["Environment", "Social", "Economy", "Governance"],
+    "resultsTitle": "OUR RESULTS",
+    "results": [
+      { "value": 100, "label": "Projects completed" },
+      { "value": 50000, "label": "Beneficiaries" },
+      { "value": 10, "label": "Countries of operation" },
+      { "value": 200000, "label": "Tonnes of CO₂ avoided" }
+    ],
+    "seeResults": "SEE THE RESULTS",
+    "oddTitle": "OUR CONTRIBUTION TO THE SDGs",
+    "oddText": "The AGI and REMUDEV programmes contribute to achieving the United Nations Sustainable Development Goals.",
+    "oddCta": "DISCOVER OUR IMPACT +"
+  },
+  "News": {
+    "title": "News, Training & Grants",
+    "subtitle": "Stay informed about our latest news",
+    "summary": "A short summary of the article to make you want to read more",
+    "readMore": "READ MORE →",
+    "all": "SEE ALL NEWS",
+    "items": [
+      { "title": "News title 1", "date": "Sept 12, 2026" },
+      { "title": "News title 2", "date": "Sept 10, 2026" },
+      { "title": "News title 3", "date": "Sept 5, 2026" }
+    ]
+  },
+  "Partners": {
+    "title": "Our Partners",
+    "subtitle": "Together for greater impact",
+    "all": "SEE ALL PARTNERS",
+    "groups": [
+      { "title": "RADER SA Partners", "items": ["DigiFarm", "PaygOps", "TACE", "Yoorin"] },
+      { "title": "GLOBTOURNET SA Partners", "items": ["Chuwi", "Big Buy", "HP", "Dell", "Camtel"] },
+      { "title": "Financial Partners", "items": ["European Investment Bank", "Willis Towers Watson", "BNDES", "IFC"] },
+      { "title": "Institutional Partners", "items": ["Partner 1", "Partner 2", "Partner 3"] }
+    ]
+  },
+  "Footer": {
+    "hotline": "WHATSAPP HOTLINE:",
+    "ecommerce": "Our e-commerce sites:",
+    "contactTitle": "CONTACT",
+    "address": "P.O. Box 6586 Yaoundé, Cameroon",
+    "follow": "FOLLOW US",
+    "rights": "© 2026 RADER. All rights reserved",
+    "legal": "Legal notice",
+    "privacy": "Privacy policy",
+    "cols": [
+      { "title": "THE GROUP", "links": ["About", "History", "Missions", "Vision", "RADER SA", "GLOBTOURNET"] },
+      { "title": "OUR PROGRAMMES", "links": ["AGI", "REMUDEV"] },
+      { "title": "OUR SOLUTIONS", "links": ["AFOLU", "Food & Beverage", "CLEANTECH", "IMMO", "SAMALA", "Digital solutions"] },
+      { "title": "USEFUL LINKS", "links": ["Financing & Insurance", "Our Products and Services", "Partners", "Beneficiaries Area", "Contact"] }
+    ]
+  }
+}

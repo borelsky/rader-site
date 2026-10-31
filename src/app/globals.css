@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+/* Charte graphique RADER */
+@theme inline {
+  --color-primary: #19653b;
+  --color-primary-alt: #0b6c42;
+  --color-accent: #fab63d;
+  --color-accent-alt: #ffc44b;
+  --color-surface: #eaf3ed;
+
+  --font-title: var(--font-montserrat);
+  --font-body: var(--font-open-sans);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body), sans-serif;
+  color: #1f2937;
+  background: #fff;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-title), sans-serif;
+  font-weight: 800;
+}
+
+/* Défilement des logos "Ils nous font confiance" */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.animate-marquee {
+  animation: marquee 30s linear infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  .animate-marquee { animation: none; }
+}
