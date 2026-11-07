@@ -3,7 +3,7 @@ import { useTranslations } from "next-intl";
 import SectionTitle from "./SectionTitle";
 import Image from "next/image";
 
-type Pillar = { title: string; text: string };
+type Pillar = { title: string; text: string; imge:string };
 const ICONS: LucideIcon[] = [Lightbulb, Globe, Users];
 
 export default function Approach() {
@@ -14,8 +14,7 @@ export default function Approach() {
       <div className="mx-auto  px-4">
         <SectionTitle title={t("title")} subtitle={t("subtitle")} />
         <div className="grid gap-6 md:grid-cols-3">
-          {pillars.map((p, i) => {
-            const Icon = ICONS[i];
+          {pillars.map((p) => {
             return (
               <article key={p.title} className="rounded-xl bg-white p-6 text-center shadow-sm">
                 {/*<Icon className="mx-auto h-10 w-10 text-primary" aria-hidden />*/}
