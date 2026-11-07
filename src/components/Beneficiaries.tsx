@@ -7,7 +7,7 @@ export default function Beneficiaries() {
   const t = useTranslations("Beneficiaries");
   const cards = t.raw("cards") as Card[];
   return (
-    <section id="beneficiaires" className=" mt-3 mx-auto bg-surface py-16">
+    <section id="beneficiaires" className=" mt-3 mx-auto bg-surface py-6 mb-[40px]">
       <div className="mx-auto  px-4">
         <SectionTitle title={t("title")} subtitle={t("subtitle")} />
         <h3 className="mb-8 text-center text-xl text-primary">{t("who")}</h3>
@@ -22,7 +22,7 @@ export default function Beneficiaries() {
                 <p className="text-sm font-semibold text-gray-800">{c.question}</p>
                 <a
                   href="#contact"
-                  className="rounded-md bg-primary px-3 py-2 text-center text-[11px] font-semibold uppercase text-white hover:bg-primary-alt"
+                  className="rounded-md bg-primary px-3 py-2 text-center text-[11px] font-semibold uppercase text-white hover:bg-accent-alt"
                 >
                   {c.cta}
                 </a>

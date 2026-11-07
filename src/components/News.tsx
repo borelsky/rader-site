@@ -22,7 +22,7 @@ export default async function News() {
       : fallback.map((f) => ({ title: f.title, summary: t("summary"), date: f.date, image: null }));
 
   return (
-    <section id="actualites" className="bg-primary py-16">
+    <section id="actualites" className="bg-primary py-6 mb-[40px]">
       <div className="mx-auto  px-4">
         <SectionTitle light title={t("title")} subtitle={t("subtitle")} />
         <div className="grid gap-6 md:grid-cols-3">

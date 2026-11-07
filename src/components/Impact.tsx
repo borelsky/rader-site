@@ -2,7 +2,7 @@ import { Leaf, Users, TrendingUp, Landmark, type LucideIcon } from "lucide-react
 import { useTranslations } from "next-intl";
 import Counter from "./Counter";
 import SectionTitle from "./SectionTitle";
-
+import Image from "next/image";
 type Result = { value: number; label: string };
 const DOMAIN_ICONS: LucideIcon[] = [Leaf, Users, TrendingUp, Landmark];
 
@@ -13,13 +13,44 @@ const ODD_COLORS = [
   "#3F7E44", "#0A97D9", "#56C02B", "#00689D", "#19486A",
 ];
 
+// stat bar declaration
+const LOGOS = ["CAPEF", "PROPAC", "PLANOPAC"];
+const icons:Record<string, string> = {CAPEF:"/images/capef.jpg",PROPAC:"/images/propac.jpg",PLANOPAC:"/images/panopac.png"};
+const loop = [...LOGOS, ...LOGOS];
+type Stat = { value: number; label: string; image: string};
+
 export default function Impact() {
   const t = useTranslations("Impact");
+  const tstat = useTranslations("Stats");
   const domains = t.raw("domains") as string[];
   const results = t.raw("results") as Result[];
+ const items = tstat.raw("items") as Stat[];
   return (
-    <section id="impact" className="mx-auto  px-4 py-16">
+    <section id="impact" className="mx-auto  px-4 bg-surface py-6 mb-[40px]">
       <SectionTitle title={t("title")} subtitle={t("subtitle")} />
+         <div className="grid grid-cols-2 gap-4 px-2 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-1 mt-3 mb-[40px]">
+              {items.map((s) => (
+                
+                <div key={s.label} className="text-center flex mx-auto">
+                  <p>
+                        <Image 
+                          src={s.image}
+                          alt=""
+                          width={75}
+                          height={50}
+                        />
+                  </p>
+                  <div className="flex-col mt-4">
+                  <p className="font-title text-3xl text-primary mt-1">
+      
+                      <Counter to={s.value} />
+      
+                  </p>
+                  <p className="mt-1 ml-1 text-sm  font-title text-accent">{s.label}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
       <div className="grid gap-10 lg:grid-cols-2">
         <div>
           <h3 className="mb-4 text-base text-primary">{t("domainsTitle")}</h3>

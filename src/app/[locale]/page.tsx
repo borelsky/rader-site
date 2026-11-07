@@ -24,18 +24,18 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
       <Header />
       <main>
         <Hero />
-        <StatsBar />
-       { /*<TrustLogos />*/}
         <About />
-        <Beneficiaries />
+        { /*<TrustLogos />*/}
         <Programs />
         <Solutions />
+        <Beneficiaries />
         <Financing />
         <Approach />
+        {/*<StatsBar />*/}
         <Impact />
         <News />
         <Partners />
-       {/*<ContactSection />*/}
+        {/*<ContactSection />*/}
       </main>
       <Footer />
     </>

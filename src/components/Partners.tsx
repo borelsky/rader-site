@@ -13,7 +13,7 @@ export default async function Partners() {
   const api = await getPartners();
 
   return (
-    <section id="partenaires" className="mx-auto  px-4 py-16">
+    <section id="partenaires" className="mx-auto  px-4 py-6 mb-[40px] bg-surface">
       <SectionTitle title={t("title")} subtitle={t("subtitle")} />
       <div className="grid gap-8 md:grid-cols-2">
         {groups.map((g, i) => {

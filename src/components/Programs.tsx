@@ -8,7 +8,7 @@ export default function Programs() {
   const t = useTranslations("Programs");
   const cards = t.raw("cards") as Card[];
   return (
-    <section id="programmes" className="mx-auto  px-4 py-16">
+    <section id="programmes" className="bg-surface mx-auto  px-4 py-8 mb-[40px]">
       <SectionTitle title={t("title")} subtitle={t("subtitle")} />
       <div className="grid gap-6 md:grid-cols-2">
         {cards.map((p, i) => (

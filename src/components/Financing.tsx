@@ -13,7 +13,8 @@ export default function Financing() {
 
   return (
     <>
-      <section id="financement" className="bg-primary py-16 text-white">
+      
+      <section id="financement" className="bg-primary py-6 text-white">
         <div className="mx-auto grid  gap-10 px-4 lg:grid-cols-2 lg:items-center">
           <div>
             <h2 className="text-2xl uppercase md:text-3xl">{t("title")}</h2>
@@ -40,7 +41,7 @@ export default function Financing() {
         </div>
       </section>
 
-      <section className="mx-auto  px-4 py-16">
+      <section className="mx-auto bg-surface px-4 py-6 mb-[40px]">
         <h3 className="mb-10 text-center text-lg text-primary md:text-xl">{t("stepsTitle")}</h3>
         <ol className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           {steps.map((s, i) => (
@@ -62,6 +63,7 @@ export default function Financing() {
           ))}
         </ol>
       </section>
+      
     </>
   );
 }

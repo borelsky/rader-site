@@ -5,7 +5,7 @@ import Image from "next/image";
 const LOGOS = ["CAPEF", "PROPAC", "PLANOPAC"];
 const icons:Record<string, string> = {CAPEF:"/images/capef.jpg",PROPAC:"/images/propac.jpg",PLANOPAC:"/images/panopac.png"};
 
-  const loop = [...LOGOS, ...LOGOS];
+const loop = [...LOGOS, ...LOGOS];
 type Stat = { value: number; label: string; image: string};
 
 export default function StatsBar() {
@@ -14,7 +14,7 @@ export default function StatsBar() {
   const items = t.raw("items") as Stat[];
   return (
     <section className=" py-8 ">
-      <div className="lg:flex md:flex  sm:inline">
+
       <div className="grid grid-cols-2 gap-4 px-2 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-1">
         {items.map((s) => (
           
@@ -38,7 +38,7 @@ export default function StatsBar() {
           </div>
         ))}
       </div>
-       <div className="overflow-hidden" aria-label={t1("title")}>
+       {/*<div className="overflow-hidden" aria-label={t1("title")}>
             <p className="mb-1 text-center font-title text-sm text-primary">{t1("title")}</p>
             <div className="flex w-max animate-marquee gap-6">
               {loop.map((name, i) => (
@@ -52,12 +52,12 @@ export default function StatsBar() {
                     width={75}
                     height={50}
                   />
-                  {/*name*/}
+                  
                 </div>
               ))}
             </div>
-          </div>
-      </div>
+          </div>*/}
+      
     </section>
   );
 }

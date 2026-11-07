@@ -104,19 +104,19 @@
     "remudevProgram": "PROGRAMME REMUDEV",
     "seeProducts": "Voir les produits",
     "agi": [
-      { "name": "RADER AFOLU", "text": "Agriculture, élevage, pisciculture et foresterie numérisés et climato-intelligents", "href": "#afolu" },
-      { "name": "RADER FOOD & BEVERAGE", "text": "Promotion de l'agriculture contractuelle et transformation agroalimentaire", "href": "#food" },
-      { "name": "RADER CLEANTECH", "text": "Eau, énergie, environnement.", "href": "#cleantech" },
-      { "name": "RADER SAMALA", "text": "Mécanisation agricole, logistique agroalimentaire et véhicules électriques", "href": "#samala" },
-      { "name": "RADER IMMO", "text": "Solutions immobilières commerciales et sociales.", "href": "#immo" },
-      { "name": "RADER FOOD & BEVERAGE SUPERMARKETS", "text": "Vitrines pour denrées alimentaires de l'agriculture bio et conventionnelle locale", "href": "#supermarkets" },
-      { "name": "RADER GreenCA", "text": "Monétisation des crédits carbone générés par le programme AGI", "href": "#greenca" }
+      { "name": "RADER AFOLU", "text": "Agriculture, élevage, pisciculture et foresterie numérisés et climato-intelligents", "href": "https://www.radergreen.com" },
+      { "name": "RADER FOOD & BEVERAGE", "text": "Promotion de l'agriculture contractuelle et transformation agroalimentaire", "href": "https://www.radergreen.com" },
+      { "name": "RADER CLEANTECH", "text": "Eau, énergie, environnement.", "href": "www.radergreen.com" },
+      { "name": "RADER SAMALA", "text": "Mécanisation agricole, logistique agroalimentaire et véhicules électriques", "href": "https://www.radergreen.com" },
+      { "name": "RADER IMMO", "text": "Solutions immobilières commerciales et sociales.", "href": "https://www.radergreen.com" },
+      { "name": "RADER FOOD & BEVERAGE SUPERMARKETS", "text": "Vitrines pour denrées alimentaires de l'agriculture bio et conventionnelle locale", "href": "https://www.radergreen.com" },
+      { "name": "RADER GreenCA", "text": "Monétisation des crédits carbone générés par le programme AGI", "href": "https://www.radergreen.com" }
     ],
     "remudev": [
-      { "name": "AFRICA CAMPUS", "text": "Plateforme de création et de distribution de contenus e-learning multi-institutionnelle.", "href": "#africa-campus" },
-      { "name": "EDUCA TV", "text": "Plateforme de création et de streaming de contenus audiovisuels e-learning, e-conferencing et e-marketing.", "href": "#educa-tv" },
-      { "name": "GLOBTOURNET HOTSPOTS", "text": "Accès internet sans fil à domicile, au bureau, à l'école et dans la mobilité.", "href": "#hotspots" },
-      { "name": "GLOBTOURNET SHOWROOMS", "text": "Smartphones, tablettes, laptops, desktops, appareils photo et caméras numériques et divers accessoires multimédias.", "href": "#showrooms" }
+      { "name": "AFRICA CAMPUS", "text": "Plateforme de création et de distribution de contenus e-learning multi-institutionnelle.", "href": "https://www.gl9btournet.com" },
+      { "name": "EDUCA TV", "text": "Plateforme de création et de streaming de contenus audiovisuels e-learning, e-conferencing et e-marketing.", "href": "https://www.gl9btournet.com" },
+      { "name": "GLOBTOURNET HOTSPOTS", "text": "Accès internet sans fil à domicile, au bureau, à l'école et dans la mobilité.", "href": "https://www.gl9btournet.com" },
+      { "name": "GLOBTOURNET SHOWROOMS", "text": "Smartphones, tablettes, laptops, desktops, appareils photo et caméras numériques et divers accessoires multimédias.", "href": "https://www.gl9btournet.com" }
     ]
   },
   "Financing": {
@@ -151,9 +151,9 @@
     "subtitle": "Une approche intégrée pour des résultats concrets",
     "cta": "DÉCOUVRIR NOS INNOVATIONS",
     "pillars": [
-      { "title": "TECHNOLOGIE", "text": "Des solutions innovantes au service du développement durable" },
-      { "title": "CLIMAT", "text": "Des actions pour un avenir plus résilient" },
-      { "title": "IMPACT", "text": "Des bénéfices durables pour les communautés" }
+      { "title": "TECHNOLOGIE", "text": "Des solutions innovantes au service du développement durable" ,"imge":"/images/stat-1.png"},
+      { "title": "CLIMAT", "text": "Des actions pour un avenir plus résilient","imge":"/images/stat-3.png" },
+      { "title": "IMPACT", "text": "Des bénéfices durables pour les communautés","imge":"/images/stat-2.png" }
     ]
   },
   "Impact": {

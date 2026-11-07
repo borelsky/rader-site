@@ -65,7 +65,7 @@ function Block({
 export default function Solutions() {
   const t = useTranslations("Solutions");
   return (
-    <section id="solutions" className="mx-auto  px-4 py-16">
+    <section id="solutions" className="mx-auto bg-surface  px-4 py-6 mb-[40px]">
       <SectionTitle title={t("title")} subtitle={t("subtitle")} />
       <div id="produits" className="grid gap-8 lg:grid-cols-[3fr_2fr]">
         <Block
