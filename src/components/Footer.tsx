@@ -7,6 +7,7 @@ import {
   FaWhatsapp,
   FaPhone,
   FaEnvelope,
+  FaLocationDot,
 } from "react-icons/fa6";
 type Col = { title: string; links: string[] };
 
@@ -28,6 +29,7 @@ export default function Footer() {
   const Icon = FaWhatsapp;
   const Phone = FaPhone;
   const Evelope = FaEnvelope;
+  const Location = FaLocationDot;
   return (
     <footer id="contact" className="bg-primary text-white">
       <div className="mx-auto grid  gap-8 px-4 py-12 md:grid-cols-2 lg:grid-cols-6">
@@ -97,10 +99,10 @@ export default function Footer() {
             </li>
             <li>
               <a href="mailto:partenaires@groupe-rader.com" className="hover:text-accent flex mt-2">
-               <Evelope size={20}/> {" "} partenaires@groupe-rader.com
+               <Evelope size={20}/> {" "} <p>partenaires@groupe-rader.com</p>
               </a>
             </li>
-            <li>{t("address")}</li>
+            <li className="flex"> <Location size={24}/> <div>{t("address")}</div></li>
           </ul>
           <h3 className="mb-2 mt-5 text-sm text-accent">{t("follow")}</h3>
           <div className="flex flex-wrap gap-3 text-sm">

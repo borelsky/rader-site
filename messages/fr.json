@@ -99,9 +99,11 @@
   "Solutions": {
     "title": "Nos Solutions",
     "subtitle": "Des solutions intégrées, des produits et services à impact pour catalyser une économie florissante et neutre en carbone.",
-    "blockTitle": "SOLUTIONS TECHNOLOGIQUES DU",
-    "agiProgram": "PROGRAMME AGI",
-    "remudevProgram": "PROGRAMME REMUDEV",
+    "blockTitle": "PRODUITS ET SERVICES",
+    "agiProgram": "RADER SA sur",
+    "remudevProgram": "GLOBTOURNET SA sur",
+    "agilink":"https://www.radergreen.com",
+    "remudevlink":"https://www.globtournet.com",
     "seeProducts": "Voir les produits",
     "agi": [
       { "name": "RADER AFOLU", "text": "Agriculture, élevage, pisciculture et foresterie numérisés et climato-intelligents", "href": "https://www.radergreen.com" },
@@ -151,8 +153,8 @@
     "subtitle": "Une approche intégrée pour des résultats concrets",
     "cta": "DÉCOUVRIR NOS INNOVATIONS",
     "pillars": [
-      { "title": "TECHNOLOGIE", "text": "Des solutions innovantes au service du développement durable" ,"imge":"/images/stat-1.png"},
-      { "title": "CLIMAT", "text": "Des actions pour un avenir plus résilient","imge":"/images/stat-3.png" },
+      { "title": "TECHNOLOGIE", "text": "Des solutions innovantes au service du développement durable" ,"imge":"/images/tech.png"},
+      { "title": "CLIMAT", "text": "Des actions pour un avenir plus résilient","imge":"/images/climat.png" },
       { "title": "IMPACT", "text": "Des bénéfices durables pour les communautés","imge":"/images/stat-2.png" }
     ]
   },
@@ -190,10 +192,34 @@
     "subtitle": "Ensemble pour un plus grand impact",
     "all": "VOIR TOUS LES PARTENAIRES",
     "groups": [
-      { "title": "Partenaires RADER SA", "items": ["DigiFarm", "PaygOps", "TACE", "Yoorin"] },
-      { "title": "Partenaires GLOBTOURNET SA", "items": ["Chuwi", "Big Buy", "HP", "Dell", "Camtel"] },
-      { "title": "Partenaires Financiers", "items": ["Banque européenne d'investissement", "Willis Towers Watson", "BNDES", "IFC"] },
-      { "title": "Partenaires Institutionnels", "items": ["Partenaire 1", "Partenaire 2", "Partenaire 3"] }
+      { "title": "Partenaires RADER SA", 
+      "items": [
+        {"name":"DigiFarm", "logo":"/images/digifarm.png"},
+        {"name":"PaygOps", "logo":"/images/tech/paygops.jpg"},
+        {"name":"TACE", "logo":"/images/tech/sgm.png"}, 
+        {"name":"Yoorin", "logo":"/images/tech/yoorin.png"}] },
+
+      { "title": "Partenaires GLOBTOURNET SA",
+       "items":
+       [{"name":"Chuwi", "logo":"/images/tech/chuwi.jpeg"},
+       {"name":"Big Buy", "logo":"/images/tech/bigbuy.jpeg"},
+       {"name":"HP", "logo":"/images/tech/hp.jpg"},
+        {"name":"Dell", "logo":"/images/tech/dell.jpg"}, 
+        {"name":"Camtel", "logo":"/images/tech/camtel.jpg"}] },
+
+      { "title": "Partenaires Financiers", 
+      "items": [
+        {"name":"Acep Cameroun", "logo":"/images/fin/acep.jpeg"},
+         {"name":"Groupe atlentic", "logo":"/images/fin/afg.jpeg"}, 
+         {"name":"BICEC", "logo":"/images/fin/bicec.jpeg"},
+          {"name":"SCB Cameroun", "logo":"/images/fin/scb.jpeg"}] },
+      { "title": "Partenaires Institutionnels", 
+      "items": [ 
+        {"name":"MINEPIA", "logo":"/images/ind/minepia.jpeg"}, 
+        {"name":"FEICOM", "logo":"/images/ind/feicom.jpeg"},  
+        {"name":"MINADER", "logo":"/images/ind/minader.jpeg"}, 
+         {"name":"MINPMEESA", "logo":"/images/ind/minpmeesa.jpeg"}, 
+          {"name":"MINEPAT", "logo":"/images/ind/minepat.jpeg"}] }
     ]
   },
     "Contact": {

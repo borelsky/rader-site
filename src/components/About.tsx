@@ -14,7 +14,7 @@ export default function About() {
           role="img"
           aria-label={t("imageAlt")}
         />
-        <div >
+       <div >
           <h2 className="text-2xl text-primary md:text-3xl">{t("title")}</h2>
           <p className="mt-1 font-title text-lg font-extrabold text-accent">{t("subtitle")}</p>
           <p className="mt-4 leading-relaxed text-gray-700">{t("text")}</p>

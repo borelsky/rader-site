@@ -113,9 +113,11 @@
   "Solutions": {
     "title": "Our Solutions",
     "subtitle": "Integrated solutions, impact products and services to catalyse a thriving, carbon-neutral economy.",
-    "blockTitle": "TECHNOLOGY SOLUTIONS OF THE",
-    "agiProgram": "AGI PROGRAMME",
-    "remudevProgram": "REMUDEV PROGRAMME",
+    "blockTitle": "PRODUCTS AND SERVICES",
+    "agiProgram": "RADER SA on",
+    "remudevProgram": "GLOBTOURNET SA on",
+        "agilink":"https://www.radergreen.com",
+    "remudevlink":"https://www.globtournet.com",
     "seeProducts": "View products",
     "agi": [
       { "name": "RADER AFOLU", "text": "Digitised, climate-smart agriculture, livestock, fish farming and forestry", "href": "https://www.radergreen.com" },
@@ -165,8 +167,8 @@
     "subtitle": "An integrated approach for concrete results",
     "cta": "DISCOVER OUR INNOVATIONS",
     "pillars": [
-      { "title": "TECHNOLOGY", "text": "Innovative solutions serving sustainable development","imge":"/images/stat-1.png" },
-      { "title": "CLIMATE", "text": "Actions for a more resilient future","imge":"/images/stat-3.png"},
+      { "title": "TECHNOLOGY", "text": "Innovative solutions serving sustainable development","imge":"/images/tech.png" },
+      { "title": "CLIMATE", "text": "Actions for a more resilient future","imge":"/images/climat.png"},
       { "title": "IMPACT", "text": "Lasting benefits for communities","imge":"/images/stat-3.png" }
     ]
   },
@@ -204,10 +206,35 @@
     "subtitle": "Together for greater impact",
     "all": "SEE ALL PARTNERS",
     "groups": [
-      { "title": "RADER SA Partners", "items": ["DigiFarm", "PaygOps", "TACE", "Yoorin"] },
-      { "title": "GLOBTOURNET SA Partners", "items": ["Chuwi", "Big Buy", "HP", "Dell", "Camtel"] },
-      { "title": "Financial Partners", "items": ["European Investment Bank", "Willis Towers Watson", "BNDES", "IFC"] },
-      { "title": "Institutional Partners", "items": ["Partner 1", "Partner 2", "Partner 3"] }
+      { "title": "RADER SA Partners", 
+      "items": [
+        {"name":"DigiFarm", "logo":"/images/digifarm.png"},
+        {"name":"PaygOps", "logo":"/images/tech/paygops.jpg"},
+        {"name":"TACE", "logo":"/images/tech/sgm.png"}, 
+        {"name":"Yoorin", "logo":"/images/tech/yoorin.png"}
+        ] },
+      { "title": "GLOBTOURNET SA Partners", 
+      "items": [
+        {"name":"Chuwi", "logo":"/images/tech/chuwi.jpeg"},
+        {"name":"Big Buy", "logo":"/images/tech/bigbuy.jpeg"},
+        {"name":"HP", "logo":"/images/tech/hp.jpg"},
+        {"name":"Dell", "logo":"/images/tech/dell.jpg"},
+        {"name":"Camtel", "logo":"/images/tech/camtel.jpg"}] },
+
+      { "title": "Financial Partners", "items": [
+        {"name":"Acep Cameroon", "logo":"/images/fin/acep.jpeg"}, 
+        {"name":"Atlantic group", "logo":"/images/fin/afg.jpeg"}, 
+        {"name":"BICEC", "logo":"/images/fin/bicec.jpeg"},
+       {"name":"SCB Cameroon", "logo":"/images/fin/scb.jpeg"}] },
+
+      { "title": "Institutional Partners",
+       "items": [
+         {"name":"MINEPIA", "logo":"/images/ind/minepia.jpeg"},
+          {"name":"FEICOM", "logo":"/images/ind/feicom.jpeg"}, 
+           {"name":"MINADER", "logo":"/images/ind/MINADER.jpeg"}, 
+            {"name":"MINPMEESA", "logo":"/images/ind/minpmeesa.jpeg"}, 
+             {"name":"MINEPAT", "logo":"/images/ind/minepat.jpeg"}
+             ] }
     ]
   },
   "Footer": {

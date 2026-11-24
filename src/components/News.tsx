@@ -48,7 +48,7 @@ export default async function News() {
         <div className="mt-8 text-center">
           <a
             href="#actualites"
-            className="inline-block rounded-md bg-accent px-6 py-3 text-sm font-semibold text-primary hover:bg-accent-alt"
+            className="inline-block rounded-md bg-surface px-6 py-3 text-sm font-semibold text-primary hover:bg-accent-alt"
           >
             {t("all")}
           </a>

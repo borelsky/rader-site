@@ -50,7 +50,7 @@ export default function Impact() {
                   </div>
                 </div>
               ))}
-            </div>
+      </div>
       <div className="grid gap-10 lg:grid-cols-2">
         <div>
           <h3 className="mb-4 text-base text-primary">{t("domainsTitle")}</h3>
@@ -59,7 +59,7 @@ export default function Impact() {
               const Icon = DOMAIN_ICONS[i];
               return (
                 <div key={label} className="rounded-xl bg-surface p-4 text-center">
-                  <Icon className="mx-auto h-7 w-7 text-primary" aria-hidden />
+                  <Icon className="mx-auto h-10 w-10 text-primary" aria-hidden />
                   <p className="mt-1 text-xs font-semibold text-primary">{label}</p>
                 </div>
               );
